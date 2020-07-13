@@ -1,0 +1,24 @@
+{
+	"name": "menu-hover-interaction",
+	"version": "1.0.0",
+	"description": "Menu Hover Interaction Experiment Inspired by Codrops",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"clean": "rm -rf dist/*",
+		"build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+		"build": "npm run clean && npm run build:parcel"
+	},
+	"author": "Sikriti Dakua",
+	"license": "ISC",
+	"dependencies": {
+		"gsap": "^3.3.4",
+		"imagesloaded": "^4.1.4",
+		"locomotive-scroll": "^3.5.4",
+		"parcel-bundler": "^1.12.4",
+		"splitting": "^1.0.6"
+	},
+	"devDependencies": {
+		"sass": "^1.26.10"
+	}
+}
